@@ -1,13 +1,11 @@
-# Post Compile csv folders
-wrangled_data/*
-submission_files/*
-
 *.idea/
 *.ipynb_checkpoints
 *.DS_Store
+*.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*__pycache__
 *.py[cod]
 *$py.class
 
@@ -144,3 +142,16 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Project specific
+# *.xls
+# *.xlsx
+volumeMountConf.txt
+
+# Documentation images (optional - remove if you want to commit images)
+# docs/images/
+
+
+# Notebooks
+*.ipynb
+

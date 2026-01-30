@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  stock-forecast-report:
+    image: stock-forecast:v0
+    container_name: stock-forecast-report
+    build:
+      context: .
+      network: host
+    ports:
+      - 8501:8501
+    restart: on-failure
+    networks:
+      - app-network
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+      - 1.1.1.1
+
+networks:
+  app-network:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.name: br-app
+      com.docker.network.driver.mtu: 1500
+
