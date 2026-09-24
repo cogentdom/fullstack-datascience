@@ -40,12 +40,16 @@ This platform provides comprehensive time series analysis and forecasting for fi
 - **Customizable Visualizations**: Adjustable parameters and color schemes
 - **Real-time Updates**: Dynamic data refresh on selection changes
 
+[Try the dashboard first hand]: https://tensoraudio.com/
+
 ### 🏗️ Architecture & Deployment
 - **Dockerized Application**: Containerized setup for easy deployment
 - **AWS EC2 Deployment**: Production-ready cloud infrastructure
 - **Custom Domain**: Cloudflare DNS integration for professional access
 - **Data Persistence**: Volume mounting for environment consistency
 - **CI/CD Ready**: Makefile automation for builds and deployments
+
+![diagram](https://cogentdom.wordpress.com/wp-content/uploads/2026/09/fullstack-datascience-diagram.png)
 
 ## 🚀 Quick Start
 
